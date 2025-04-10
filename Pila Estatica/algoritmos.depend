@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1744219776 source:c:\users\laboratorios\desktop\algoritmos\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1744219776 
+
+1744218942 source:/run/media/tomas/AC42-4DB8/ALGORITMOS CLASES/algoritmos/main.c
+	<stdio.h>
+	<stdlib.h>
+	"pila.h"
+
+1744221884 /run/media/tomas/AC42-4DB8/ALGORITMOS CLASES/algoritmos/pila.h
+
+1744218942 source:/home/tomas/Desktop/ALGORITMOS CLASES/algoritmos/main.c
+	<stdio.h>
+	<stdlib.h>
+	"pila.h"
+
+1744320020 /home/tomas/Desktop/ALGORITMOS CLASES/algoritmos/pila.h
+
+1744320750 source:/home/tomas/Desktop/ALGORITMOS CLASES/algoritmos/funciones.c
+	"pila.h"
+	<string.h>
+
