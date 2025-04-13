@@ -1,5 +1,6 @@
 #include "pila_hibrida.h"
 #include <string.h>
+#include <stdlib.h>
 #define TAM_DATO sizeof(unsigned)
 
 void crear_pila(t_pila* pila){
@@ -41,7 +42,7 @@ int desapilar(t_pila* pila, void* dato, unsigned tam){
 
     ///Recupero el dato
     memcpy(dato,px_bloque,(tam > tam_dato)? tam_dato:tam);
-    free(pila->pila[pila->tope]); //Devuelvo memoria
+    free(pila->pila[pila->tope - 1]); //Devuelvo memoria
     pila->tope--;
 
     return 1;
@@ -52,4 +53,12 @@ void vaciar_pila(t_pila* pila){
         pila->tope--;
         free(pila->pila[pila->tope]);
     }
+}
+
+int pila_llena(const t_pila* pila) {
+    return pila->tope >= CAPACIDAD_PILA;
+}
+
+int pila_vacia(const t_pila* pila) {
+    return pila->tope == 0;
 }
