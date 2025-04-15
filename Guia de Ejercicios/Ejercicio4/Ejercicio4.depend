@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1744736556 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\guia de ejercicios\ejercicio3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"vector.h"
+
+1744736567 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\guia de ejercicios\ejercicio3\funciones_vector.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"vector.h"
+
+1744736279 c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\guia de ejercicios\ejercicio3\vector.h
+
+1744736567 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\guia de ejercicios\ejercicio4\funciones_vector.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"vector.h"
+
+1744736279 c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\guia de ejercicios\ejercicio4\vector.h
+
+1744740972 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\guia de ejercicios\ejercicio4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"vector.h"
+	"persona.h"
+
+1744740275 c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\guia de ejercicios\ejercicio4\persona.h
+
