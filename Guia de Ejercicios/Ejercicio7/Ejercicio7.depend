@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1744746591 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\guia de ejercicios\ejercicio7\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
