@@ -1,0 +1,120 @@
+# depslib dependency file v1.0
+1744575856 source:c:\users\nachopro\onedrive\escritorio\algoritmos\trabajo_pila_hibrida\main\main.c
+	"pila.h"
+	"FUNCIONES_AUXILARES.h"
+
+1744575517 c:\users\nachopro\onedrive\escritorio\algoritmos\trabajo_pila_hibrida\main\pila.h
+	<stdlib.h>
+
+1744573525 source:c:\users\nachopro\onedrive\escritorio\algoritmos\trabajo_pila_hibrida\main\pila.c
+	"pila.h"
+	"FUNCIONES_AUXILARES.h"
+
+1744575466 c:\users\nachopro\onedrive\escritorio\algoritmos\trabajo_pila_hibrida\main\funciones_auxilares.h
+	"pila.h"
+	<stdio.h>
+
+1744575440 source:c:\users\nachopro\onedrive\escritorio\algoritmos\trabajo_pila_hibrida\main\funciones_auxiliares.c
+	"FUNCIONES_AUXILARES.h"
+
+1744655036 source:c:\users\ramiro\desktop\universidad\tercer año\primer cuatrimestre\algoritmos y estructuras de datos\pila\pila_memoria\main\funciones_auxiliares.c
+	"funciones_auxiliares.h"
+
+1744577346 c:\users\ramiro\desktop\universidad\tercer año\primer cuatrimestre\algoritmos y estructuras de datos\pila\pila_memoria\main\funciones_auxilares.h
+	"pila.h"
+	<stdio.h>
+
+1744654782 c:\users\ramiro\desktop\universidad\tercer año\primer cuatrimestre\algoritmos y estructuras de datos\pila\pila_memoria\main\pila.h
+	<stdlib.h>
+
+1744654909 source:c:\users\ramiro\desktop\universidad\tercer año\primer cuatrimestre\algoritmos y estructuras de datos\pila\pila_memoria\main\pila.c
+	"pila.h"
+	"funciones_auxiliares.h"
+
+1744577336 source:c:\users\ramiro\desktop\universidad\tercer año\primer cuatrimestre\algoritmos y estructuras de datos\pila\pila_memoria\main\main.c
+	"pila.h"
+	"FUNCIONES_AUXILARES.h"
+
+1744655087 c:\users\ramiro\desktop\universidad\tercer año\primer cuatrimestre\algoritmos y estructuras de datos\pila\pila_memoria\main\funciones_auxiliares.h
+	"pila.h"
+	<stdio.h>
+
+1744676271 source:c:\users\ramiro\desktop\universidad\tercer año\primer cuatrimestre\algoritmos y estructuras de datos\pila\pila_memoria\funciones_auxiliares.c
+	"funciones_auxiliares.h"
+
+1744676240 c:\users\ramiro\desktop\universidad\tercer año\primer cuatrimestre\algoritmos y estructuras de datos\pila\pila_memoria\funciones_auxiliares.h
+	<stddef.h>
+
+1744724837 c:\users\ramiro\desktop\universidad\tercer año\primer cuatrimestre\algoritmos y estructuras de datos\pila\pila_memoria\pila.h
+	<stdlib.h>
+
+1744676327 source:c:\users\ramiro\desktop\universidad\tercer año\primer cuatrimestre\algoritmos y estructuras de datos\pila\pila_memoria\main.c
+	"main.h"
+	"pila.h"
+	"empleado.h"
+	"archivo.h"
+
+1744727396 source:c:\users\ramiro\desktop\universidad\tercer año\primer cuatrimestre\algoritmos y estructuras de datos\pila\pila_memoria\pila.c
+	"pila.h"
+	"funciones_auxiliares.h"
+
+1744726486 source:c:\users\ramiro\desktop\universidad\tercer año\primer cuatrimestre\algoritmos y estructuras de datos\pila\pila_memoria\archivo.c
+	"archivo.h"
+	"empleado.h"
+
+1744676253 c:\users\ramiro\desktop\universidad\tercer año\primer cuatrimestre\algoritmos y estructuras de datos\pila\pila_memoria\archivo.h
+	"pila.h"
+
+1744676064 c:\users\ramiro\desktop\universidad\tercer año\primer cuatrimestre\algoritmos y estructuras de datos\pila\pila_memoria\empleado.h
+	<stdio.h>
+
+1744676320 c:\users\ramiro\desktop\universidad\tercer año\primer cuatrimestre\algoritmos y estructuras de datos\pila\pila_memoria\main.h
+
+1744726486 source:c:\users\ramiro\desktop\pila_memoria\archivo.c
+	"archivo.h"
+	"empleado.h"
+
+1744676253 c:\users\ramiro\desktop\pila_memoria\archivo.h
+	"pila.h"
+
+1744724837 c:\users\ramiro\desktop\pila_memoria\pila.h
+	<stdlib.h>
+
+1744676064 c:\users\ramiro\desktop\pila_memoria\empleado.h
+	<stdio.h>
+
+1744676271 source:c:\users\ramiro\desktop\pila_memoria\funciones_auxiliares.c
+	"funciones_auxiliares.h"
+
+1744676240 c:\users\ramiro\desktop\pila_memoria\funciones_auxiliares.h
+	<stddef.h>
+
+1744676327 source:c:\users\ramiro\desktop\pila_memoria\main.c
+	"main.h"
+	"pila.h"
+	"empleado.h"
+	"archivo.h"
+
+1744676320 c:\users\ramiro\desktop\pila_memoria\main.h
+
+1744746710 source:c:\users\ramiro\desktop\pila_memoria\pila.c
+	"pila.h"
+	"funciones_auxiliares.h"
+
+1744817566 source:c:\users\tomas\desktop\pila_memoria\pila_memoria\main.c
+	"main.h"
+	"pila.h"
+	"empleado.h"
+	"archivo.h"
+
+1744825013 c:\users\tomas\desktop\pila_memoria\pila_memoria\main.h
+
+1744825013 c:\users\tomas\desktop\pila_memoria\pila_memoria\pila.h
+	<stdlib.h>
+
+1744825013 c:\users\tomas\desktop\pila_memoria\pila_memoria\empleado.h
+	<stdio.h>
+
+1744825013 c:\users\tomas\desktop\pila_memoria\pila_memoria\archivo.h
+	"pila.h"
+

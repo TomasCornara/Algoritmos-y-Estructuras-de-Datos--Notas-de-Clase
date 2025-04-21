@@ -19,7 +19,7 @@ void descomposicion_numero_inverso_aux(char* string);
 int main()
 {
     ///Ejercicio 2-H
-    descomposicion_numero_inverso(1234);
+    //descomposicion_numero_inverso(1234);
 
     ///Ejercicio 2-G
     //descomposicion_numero(1234);

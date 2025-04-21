@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1745194179 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\guia de ejercicios\ejercicio2_7\main.c
+	<stdio.h>
+	<stdlib.h>
+	"sumador.h"
+
+1745203765 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\guia de ejercicios\ejercicio2_7\funciones_pila.c
+	<string.h>
+	"pila.h"
+
+1745193841 c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\guia de ejercicios\ejercicio2_7\pila.h
+	<stdlib.h>
+
+1745200653 c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\guia de ejercicios\ejercicio2_7\sumador.h
+	"pila.h"
+
+1745194153 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\guia de ejercicios\ejercicio2_7\funciones_sumador.c
+	"sumador.h"
+
