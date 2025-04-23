@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1745110880 source:c:\users\ramiro\desktop\ejercicio 2.7\main.c
+	"main.h"
+	"estatica/pila.c"
+
+1745255147 pila.c"
+
+1745110821 c:\users\ramiro\desktop\ejercicio 2.7\main.h
+	<stdio.h>
+	"estatica/pila.h"
+
+1745252832 pila.h"
+
+1745183123 c:\users\ramiro\desktop\ejercicio 2.7\estatica\pila.h
+	<stddef.h>
+
+1745249953 
+
+1745183108 c:\users\ramiro\desktop\ejercicio 2.7\estatica\pila.c
+	"pila.h"
+
+1745110806 source:c:\users\ramiro\desktop\ejercicio 2.7\funcionesmain.c
+	"main.h"
+
+1745255051 source:c:\users\tomas\desktop\ejercicio 2.7\ejercicio 2.7\funcionesmain.c
+	"main.h"
+
+1745252832 c:\users\tomas\desktop\ejercicio 2.7\ejercicio 2.7\main.h
+	<stdio.h>
+	"estatica/pila.h"
+
+1745249953 c:\users\tomas\desktop\ejercicio 2.7\ejercicio 2.7\estatica\pila.h
+	<stddef.h>
+
+1745255147 source:c:\users\tomas\desktop\ejercicio 2.7\ejercicio 2.7\main.c
+	"main.h"
+	"estatica/pila.c"
+
+1745249953 c:\users\tomas\desktop\ejercicio 2.7\ejercicio 2.7\estatica\pila.c
+	"pila.h"
+
+1745254683 c:\users\tomas\desktop\ejercicio 2.7\ejercicio 2.7\hibrida\pila.h
+	<stdlib.h>
+
+1745254998 source:c:\users\tomas\desktop\ejercicio 2.7\ejercicio 2.7\hibrida\pila.c
+	"pila.h"
+	"string.h"
+
+1745367787 source:/home/tomas/Desktop/Ejercicio 2.7/funcionesMain.c
+	"main.h"
+
+1745252832 /home/tomas/Desktop/Ejercicio 2.7/main.h
+	<stdio.h>
+	"estatica/pila.h"
+
+1745249952 /home/tomas/Desktop/Ejercicio 2.7/estatica/pila.h
+	<stddef.h>
+
+1745367013 source:/home/tomas/Desktop/Ejercicio 2.7/main.c
+	"main.h"
+	"hibrida/pila.h"
+
+1745249952 /home/tomas/Desktop/Ejercicio 2.7/estatica/pila.c
+	"pila.h"
+
+1745367997 /home/tomas/Desktop/Ejercicio 2.7/hibrida/pila.h
+	<stdlib.h>
+
+1744676270 source:/home/tomas/Desktop/Ejercicio 2.7/hibrida/funciones_auxiliares.c
+	"funciones_auxiliares.h"
+
+1744676240 /home/tomas/Desktop/Ejercicio 2.7/hibrida/funciones_auxiliares.h
+	<stddef.h>
+
+1745367953 source:/home/tomas/Desktop/Ejercicio 2.7/hibrida/pila.c
+	"pila.h"
+	"funciones_auxiliares.h"
+
