@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1745421988 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\cola\main.c
+	<stdio.h>
+	<stdlib.h>
+	"cola.h"
+
+1745414787 c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\cola\cola.h
+
+1745423625 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\cola\cola_funciones.c
+	"cola.h"
+	<string.h>
+
