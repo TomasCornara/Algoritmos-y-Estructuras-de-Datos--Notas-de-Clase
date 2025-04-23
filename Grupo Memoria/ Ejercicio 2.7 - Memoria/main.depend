@@ -76,3 +76,30 @@
 	"pila.h"
 	"funciones_auxiliares.h"
 
+1745368103 source:/home/tomas/Desktop/Algoritmos-y-Estructuras-de-Datos--Notas-de-Clase/Grupo Memoria/ Ejercicio 2.7 - Memoria/funcionesMain.c
+	"main.h"
+
+1745252832 /home/tomas/Desktop/Algoritmos-y-Estructuras-de-Datos--Notas-de-Clase/Grupo Memoria/ Ejercicio 2.7 - Memoria/main.h
+	<stdio.h>
+	"estatica/pila.h"
+
+1745249952 /home/tomas/Desktop/Algoritmos-y-Estructuras-de-Datos--Notas-de-Clase/Grupo Memoria/ Ejercicio 2.7 - Memoria/estatica/pila.h
+	<stddef.h>
+
+1744676270 source:/home/tomas/Desktop/Algoritmos-y-Estructuras-de-Datos--Notas-de-Clase/Grupo Memoria/ Ejercicio 2.7 - Memoria/hibrida/funciones_auxiliares.c
+	"funciones_auxiliares.h"
+
+1744676240 /home/tomas/Desktop/Algoritmos-y-Estructuras-de-Datos--Notas-de-Clase/Grupo Memoria/ Ejercicio 2.7 - Memoria/hibrida/funciones_auxiliares.h
+	<stddef.h>
+
+1745368837 source:/home/tomas/Desktop/Algoritmos-y-Estructuras-de-Datos--Notas-de-Clase/Grupo Memoria/ Ejercicio 2.7 - Memoria/hibrida/pila.c
+	"pila.h"
+	"funciones_auxiliares.h"
+
+1745368855 /home/tomas/Desktop/Algoritmos-y-Estructuras-de-Datos--Notas-de-Clase/Grupo Memoria/ Ejercicio 2.7 - Memoria/hibrida/pila.h
+	<stdlib.h>
+
+1745367013 source:/home/tomas/Desktop/Algoritmos-y-Estructuras-de-Datos--Notas-de-Clase/Grupo Memoria/ Ejercicio 2.7 - Memoria/main.c
+	"main.h"
+	"hibrida/pila.h"
+

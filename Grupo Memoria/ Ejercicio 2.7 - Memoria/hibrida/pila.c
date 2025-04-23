@@ -1,7 +1,7 @@
 #include "pila.h"
 #include "funciones_auxiliares.h"
 
-#define MINIMO(A, B) ((A) <= (B) ? (A) : (B))
+#define MINIMO( A, B ) ( ( A ) <= ( B ) ? ( A ) : ( B ) )
 
 void crearPila(tPila *pila)
 {
@@ -10,69 +10,74 @@ void crearPila(tPila *pila)
 
 int apilar(tPila *pila, const void *dato, unsigned tamDato)
 {
-    if (pila->tope == 0)
-        return 0;
+    tInformacion *aux;
 
-    tInformacion *aux = (tInformacion *)malloc(sizeof(tInformacion));
+    if (!pila->tope)
+        return -1;
+
+    aux = (tInformacion *)malloc(sizeof(tInformacion));
+
     if (!aux)
-        return 0;
+        return -2;
 
     aux->dato = malloc(tamDato);
+
     if (!aux->dato)
     {
         free(aux);
-        return 0;
+        return -2;
     }
+
+    pila->tope--;
 
     mMemcpy(aux->dato, dato, tamDato);
     aux->tamDato = tamDato;
 
-    pila->tope--;
-    pila->pila[pila->tope] = aux;
+    *(pila->pila + pila->tope) = aux;
 
-    return 1;
+    return 0;
 }
 
 int desapilar(tPila *pila, void *dato, unsigned tamDato)
 {
     if (pila->tope == TAM_PILA)
-        return 0;
+        return -1;
 
-    tInformacion *aux = pila->pila[pila->tope];
-    if (!aux)
-        return 0;
+    mMemcpy(dato, ((*(pila->pila + pila->tope))->dato),
+            MINIMO(tamDato, ((*(pila->pila + pila->tope))->tamDato)));
 
-    mMemcpy(dato, aux->dato, MINIMO(tamDato, aux->tamDato));
+    free((*(pila->pila + pila->tope))->dato);
+    free(*(pila->pila + pila->tope));
 
-    free(aux->dato);
-    free(aux);
-    pila->pila[pila->tope] = NULL;
+    *(pila->pila + pila->tope) = NULL;
+
     pila->tope++;
 
-    return 1;
+    return 0;
 }
 
-int pilaLlena(const tPila *pila)
+int pilaLlena(const tPila *pila, unsigned tamDato)
 {
-    return pila->tope == 0;
+    return !pila->tope ? -1 : 0;
 }
 
 int pilaVacia(const tPila *pila)
 {
-    return pila->tope == TAM_PILA;
+    return pila->tope == TAM_PILA ? -1 : 0;
 }
 
 void vaciarPila(tPila *pila)
 {
     while (pila->tope < TAM_PILA)
     {
-        tInformacion *aux = pila->pila[pila->tope];
-        if (aux)
+        if (*(pila->pila + pila->tope))
         {
-            free(aux->dato);
-            free(aux);
-            pila->pila[pila->tope] = NULL;
+            free((*(pila->pila + pila->tope))->dato);
+            free(*(pila->pila + pila->tope));
+
+            *(pila->pila + pila->tope) = NULL;
         }
+
         pila->tope++;
     }
 }
@@ -80,12 +85,10 @@ void vaciarPila(tPila *pila)
 int verTope(const tPila *pila, void *dato, unsigned tamDato)
 {
     if (pila->tope == TAM_PILA)
-        return 0;
+        return -1;
 
-    tInformacion *aux = pila->pila[pila->tope];
-    if (!aux)
-        return 0;
+    mMemcpy(dato, ((*(pila->pila + pila->tope))->dato),
+            MINIMO(tamDato, ((*(pila->pila + pila->tope))->tamDato)));
 
-    mMemcpy(dato, aux->dato, MINIMO(tamDato, aux->tamDato));
-    return 1;
+    return 0;
 }
