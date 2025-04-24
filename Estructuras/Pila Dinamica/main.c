@@ -17,13 +17,13 @@ int main() {
     valor = 30;
     apilar(&pila, &valor, sizeof(valor));
 
-    /*printf("Desapilando elementos:\n");
+    printf("Desapilando elementos:\n");
     while (!pilaVacia(&pila)) {
         if (desapilar(&pila, &extraido, sizeof(extraido)))
             printf("Valor desapilado: %d\n", extraido);
         else
             printf("Error al desapilar.\n");
-    }*/
+    }
 
     vaciarPila(&pila);
 
