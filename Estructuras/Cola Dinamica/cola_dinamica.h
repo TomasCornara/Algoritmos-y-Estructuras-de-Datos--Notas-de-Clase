@@ -1,0 +1,7 @@
+#ifndef COLA_DINAMICA_H_INCLUDED
+#define COLA_DINAMICA_H_INCLUDED
+
+typedef struct
+
+
+#endif // COLA_DINAMICA_H_INCLUDED

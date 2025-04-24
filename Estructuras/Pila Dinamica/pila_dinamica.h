@@ -25,6 +25,6 @@ int pilaLlena(tPila* pila, unsigned cantBytes);
 int apilar(tPila* pila, const void* dato, unsigned cantBytes);
 int verTope(const tPila* pila, void* dato, unsigned cantBytes);
 int desapilar(tPila* pila, void* dato, unsigned cantBytes);
-
+void vaciarPila(tPila* pila);
 
 #endif // PILA_DINAMICA_H_INCLUDED

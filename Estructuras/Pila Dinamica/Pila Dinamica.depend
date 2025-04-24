@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1745524336 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\estructuras\pila dinamica\main.c
+1745528078 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\estructuras\pila dinamica\main.c
 	<stdio.h>
 	<stdlib.h>
 	"pila_dinamica.h"
 
-1745524363 c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\estructuras\pila dinamica\pila_dinamica.h
+1745528005 c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\estructuras\pila dinamica\pila_dinamica.h
 
-1745524503 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\estructuras\pila dinamica\pila_dinamica.c
+1745528026 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\estructuras\pila dinamica\pila_dinamica.c
 	<stdlib.h>
 	<string.h>
 	"pila_dinamica.h"

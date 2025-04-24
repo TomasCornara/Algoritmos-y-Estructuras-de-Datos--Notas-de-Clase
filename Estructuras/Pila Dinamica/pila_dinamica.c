@@ -3,6 +3,7 @@
 #include "pila_dinamica.h"
 #define MIN(A,B) (((A)>(B))? (B):(A))
 
+void vaciarPilaRecursivo(tNodo* nodo);
 
 void crearPila(tPila* pila){
     *pila = NULL;
@@ -81,4 +82,22 @@ int desapilar(tPila* pila, void* dato, unsigned cantBytes){
     free(eliminar);
 
     return EXITO_DESAPILAR;
+}
+
+void vaciarPila(tPila* pila){
+   vaciarPilaRecursivo(*pila);
+   *pila = NULL;
+}
+
+void vaciarPilaRecursivo(tNodo* nodo){
+    //Chequeo si este no es el ultimo nodo
+    if(!nodo->siguiente) return;
+
+    //Si no es el caso, busco el siguiente
+    vaciarPilaRecursivo(nodo->siguiente);
+
+    //Cuando vuelvo, libero la memoria
+    free(nodo->dato);
+    free(nodo);
+    return;
 }
