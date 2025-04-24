@@ -24,35 +24,30 @@ int colaLlena(const tCola *cola, unsigned cantBytes){
 
 int verPrimero(const tCola* cola, void* dato, unsigned cantBytes)
 {
-    unsigned tam, ini, fin;
+    unsigned tam,ini,fin,posDato;
 
-    // Verifico si hay algo en la cola
-    if(cola->tam_disp == TAM_COLA)
-        return 0;
+    ///Lectura del tamaño de dato
+    ini = MIN(sizeof(unsigned), TAM_COLA - cola->primero);
+    fin = sizeof(unsigned) - ini;
 
-    // Leo el tamaño del dato
-    ini = MIN(TAM_COLA - cola->primero, sizeof(tam));
-    if(ini)
-        memcpy(&tam, cola->cola + cola->primero, ini);
+    if(ini){ //Si hay algo que leer desde el inicio
+        memcpy(&tam,(char*)cola->cola + cola->primero,ini);
+    }
+    if(fin){ //Si hay algo que leer desde el final
+        memcpy((char*)&tam + ini, cola->cola,fin);
+    }
 
-    fin = sizeof(tam) - ini;
-    if(fin)
-        memcpy((char*)&tam + ini, cola->cola, fin);
+    ///Lectura del dato
+    posDato = fin? fin: cola->primero + ini;
+    ini = MIN(TAM_COLA - posDato,MIN(cantBytes,tam));
+    fin = MIN(cantBytes,tam) - ini;
 
-    // Valido que el dato quepa en el destino
-    if(tam > cantBytes)
-        return 0;
-
-    // Leo el dato sin modificar la cola
-    unsigned posDato = (cola->primero + sizeof(tam)) % TAM_COLA;
-
-    ini = MIN(TAM_COLA - posDato, tam);
-    if(ini)
-        memcpy(dato, cola->cola + posDato, ini);
-
-    fin = tam - ini;
-    if(fin)
-        memcpy((char*)dato + ini, cola->cola, fin);
+    if(ini){
+        memcpy(dato,(char*)cola->cola + posDato,ini);
+    }
+    if(fin){
+        memcpy((char*)dato + ini,cola->cola,fin);
+    }
 
     return 1;
 }
@@ -96,9 +91,42 @@ int enColar(tCola* cola, const void* dato, unsigned tam)
 }
 
 
+int desEnColar(tCola *cola, void *dato, unsigned cantBytes){
+    unsigned tam,ini,fin,posDato;
+
+    ///Lectura del tamaño de dato
+    ini = MIN(sizeof(unsigned), TAM_COLA - cola->primero);
+    fin = sizeof(unsigned) - ini;
+
+    if(ini){ //Si hay algo que leer desde el inicio
+        memcpy(&tam,(char*)cola->cola + cola->primero,ini);
+    }
+    if(fin){ //Si hay algo que leer desde el final
+        memcpy((char*)&tam + ini, cola->cola,fin);
+    }
+
+    //Devuelvo el espacio ocupado por el tamaño del dato
+    cola->tam_disp += sizeof(unsigned);
+
+    ///Lectura del dato
+    posDato = fin? fin: cola->primero + ini;
+    ini = MIN(TAM_COLA - posDato,MIN(cantBytes,tam));
+    fin = MIN(cantBytes,tam) - ini;
+
+    if(ini){
+        memcpy(dato,(char*)cola->cola + posDato,ini);
+    }
+    if(fin){
+        memcpy((char*)dato + ini,(char*)cola->cola,fin);
+    }
+
+    //Devuelvo el espacio ocupado por el dato y corrijo a la nueva posicion
+    cola->tam_disp += tam;
+    cola->primero = fin? fin: posDato + ini;
 
 
-int desEnColar(tCola *cola, void *dato, unsigned cantBytes);
+    return 1;
+}
 
 
 

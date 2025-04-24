@@ -1,7 +1,7 @@
 #ifndef COLA_H_INCLUDED
 #define COLA_H_INCLUDED
 
-#define TAM_COLA 100
+#define TAM_COLA 16
 
 typedef struct tCola{
     char cola[TAM_COLA];
