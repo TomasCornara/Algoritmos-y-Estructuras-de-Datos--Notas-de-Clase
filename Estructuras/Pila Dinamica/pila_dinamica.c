@@ -85,6 +85,7 @@ int desapilar(tPila* pila, void* dato, unsigned cantBytes){
 }
 
 void vaciarPila(tPila* pila){
+    if(*pila == NULL) return;
    vaciarPilaRecursivo(*pila);
    *pila = NULL;
 }

@@ -12,7 +12,7 @@ typedef struct tCola{
 
 void crearCola(tCola *cola);
 int enColar(tCola *cola, const void *dato, unsigned cantBytes);
-int desEnColar(tCola *cola, void *dato, unsigned cantBytes);
+int desEncolar(tCola *cola, void *dato, unsigned cantBytes);
 int verPrimero(const tCola *cola, void *dato, unsigned cantBytes);
 void vaciarCola(tCola *cola);
 int colaVacia(const tCola *cola);

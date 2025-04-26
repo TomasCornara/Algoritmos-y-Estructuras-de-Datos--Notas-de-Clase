@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1745528078 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\estructuras\pila dinamica\main.c
+1745528274 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\estructuras\pila dinamica\main.c
 	<stdio.h>
 	<stdlib.h>
 	"pila_dinamica.h"
