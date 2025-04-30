@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1745692977 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\grupo memoria\controldecalidad\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+
+1745690284 c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\grupo memoria\controldecalidad\cola_dinamica.h
+
+1745691680 c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\grupo memoria\controldecalidad\producto.h
+	<stdio.h>
+	<stdlib.h>
+	"cola_dinamica.h"
+
+1745692977 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\grupo memoria\controldecalidad\cola_dinamica.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cola_dinamica.h"
+
+1745691731 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\grupo memoria\controldecalidad\produco_funciones.c
+	"producto.h"
+	<string.h>
+
+1745692834 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\grupo memoria\controldecalidad\producto_funciones.c
+	"producto.h"
+	<string.h>
+
