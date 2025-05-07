@@ -1,0 +1,77 @@
+void crearCola(tCola *col)
+{
+    col->pri=NULL;
+    col->ult=NULL;
+}
+ 
+int encolar(tCola* col,const void* dato, unsigned tam)
+{
+    tNodo* nue=(tNodo*)malloc(sizeof(tNodo));
+    if(nue==NULL)
+        return 1;
+    nue->info=malloc(tam);
+    if(nue->info==NULL)
+    {
+        free(nue);
+        return 1;
+    }
+    memcpy(nue->info,dato,tam);
+    nue->tam=tam;
+    nue->sig=NULL;
+    if(!col->pri)
+        col->pri=nue;
+    else
+        col->ult->sig=nue;
+    col->ult=nue;
+ 
+    return 0;
+}
+ 
+int desencolar(tCola* col,void* dato, unsigned tam)
+{
+    tNodo* elim;
+    if(col->pri==NULL)
+        return 1;
+    elim=col->pri;
+    memcpy(dato,elim->info,MIN(tam,elim->tam));
+    col->pri=elim->sig;
+    if(col->pri==NULL)
+        col->ult=NULL;
+    free(elim->info);
+    free(elim);
+    return 0;
+}
+ 
+int verPrimero(const tCola* col,void* dato, unsigned tam)
+{
+    if(col->pri==NULL)
+        return 1;
+    memcpy(dato,col->pri->info,MIN(tam,col->pri->tam));
+    return 0;
+}
+ 
+void vaciarCola(tCola *col)
+{
+    tNodo * elim;
+    while(col->pri!=NULL)
+    {
+        elim=col->pri;
+        col->pri=elim->sig;
+        free(elim->info);
+        free(elim);
+    }
+    col->ult=NULL;
+}
+ 
+int colaLlena(const tCola* col, unsigned tam)
+{
+    return 0;
+}
+ 
+int colaVacia(const tCola*col)
+{
+    if(col->pri==NULL)
+        return 1;
+    else
+        return 0;
+}

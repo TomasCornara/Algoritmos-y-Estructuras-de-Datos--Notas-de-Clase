@@ -4,10 +4,10 @@
 
 #define ERROR_MEMORIA -1
 
-#define EXITO 1;
-#define COLA_VACIA 2;
-#define COLA_LLENA 3;
-#define COLA_OCUPADA 4;
+#define EXITO 1
+#define COLA_VACIA 2
+#define COLA_LLENA 3
+#define COLA_OCUPADA 4
 
 typedef struct sNodo{
     void* dato;

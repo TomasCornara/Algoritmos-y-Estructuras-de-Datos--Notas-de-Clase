@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1746562285 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\estructuras\lista dinamica\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lista_dinamica.h"
+
+1746562416 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\estructuras\lista dinamica\lista_dinamica.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lista_dinamica.h"
+
+1746562149 c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\estructuras\lista dinamica\lista_dinamica.h
+

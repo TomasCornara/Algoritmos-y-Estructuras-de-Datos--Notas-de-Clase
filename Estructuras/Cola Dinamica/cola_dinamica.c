@@ -32,7 +32,8 @@ int enColar(tCola *cola, const void *dato, unsigned cantBytes){
     //Si no hay nada, agrego y me voy
     if(!cola->primero){
         cola->primero = entrante;
-        cola->ultimo = entrante;
+        //cola->ultimo = entrante;
+        return EXITO;
     }
 
     //Si habia algo, lo agrego atras

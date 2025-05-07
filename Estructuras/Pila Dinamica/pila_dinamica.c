@@ -14,6 +14,7 @@ int pilaVacia(tPila* pila){
 }
 
 int pilaLlena(tPila* pila, unsigned cantBytes){
+    //ESTO ESTA MAL PORQUE NO ME GARANTIZA QUE VAYA A HABER MEMORIA CUANDO YO SI LA PIDA
     tNodo* aux;
 
     aux = (tNodo*)malloc(sizeof(tNodo));
@@ -22,6 +23,8 @@ int pilaLlena(tPila* pila, unsigned cantBytes){
     }
 
     return EXITO_LUGAR_EN_PILA;
+
+    //Return <- PILA_DISPO (No importa, devolves cualquier cosa).
 }
 
 int apilar(tPila* pila, const void* dato, unsigned cantBytes){
@@ -102,3 +105,15 @@ void vaciarPilaRecursivo(tNodo* nodo){
     free(nodo);
     return;
 }
+
+
+//FORMA ITERATIVA
+/* void vaciarPila(tPila *pila){
+    tNodo *aux;
+    while(*pila){
+        aux = *pila;
+        *pila = aux->siguiente;
+        free(aux->dato);
+        free(aux);
+    }
+}*/
