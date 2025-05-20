@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1747184144 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\lista simple\lista_simple.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lista_simple.h"
+
+1747184131 c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\lista simple\lista_simple.h
+
+1747184282 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\lista simple\main.c
+	<stdio.h>
+	"lista_simple.h"
+
