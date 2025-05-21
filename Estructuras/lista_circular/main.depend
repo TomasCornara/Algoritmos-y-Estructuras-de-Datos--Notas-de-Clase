@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1747254565 source:c:\users\ramiro\desktop\pila_lista_circular\lista_circular.c
+	"lista_circular.h"
+
+1747254492 c:\users\ramiro\desktop\pila_lista_circular\lista_circular.h
+	<stdlib.h>
+	<string.h>
+
+1747254492 source:c:\users\ramiro\desktop\pila_lista_circular\main.c
+	<stdio.h>
+	"cola_circular.h"
+
+1747254683 source:c:\users\ramiro\desktop\pila_lista_circular\cola_circular.c
+	"cola_circular.h"
+
+1747254683 c:\users\ramiro\desktop\pila_lista_circular\cola_circular.h
+	<stdlib.h>
+	<string.h>
+
