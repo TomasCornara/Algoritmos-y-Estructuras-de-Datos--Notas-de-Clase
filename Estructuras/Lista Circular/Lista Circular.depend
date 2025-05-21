@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1747838137 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\estructuras\lista circular\main.c
+1747841923 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\estructuras\lista circular\main.c
 	<stdio.h>
 	<stdlib.h>
 	"lista_circular.h"
 
-1747837909 c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\estructuras\lista circular\lista_circular.h
+1747842972 c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\estructuras\lista circular\lista_circular.h
 
-1747838162 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\estructuras\lista circular\lista_circular.c
+1747842961 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\estructuras\lista circular\lista_circular.c
 	<stdlib.h>
 	<stdio.h>
 	<string.h>

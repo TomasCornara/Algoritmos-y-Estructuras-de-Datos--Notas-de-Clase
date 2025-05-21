@@ -133,3 +133,22 @@ void mostrarCola(const tCola cola) {
     printf("\n");
 }
 
+void mapCola(const tCola* cola, void (*accion)(const void*)) {
+    tNodo* actual;
+
+    if (*cola == NULL)
+        return;
+
+    actual = (*cola)->sig;
+
+    do {
+        accion(actual->info);
+        actual = actual->sig;
+    } while (actual != (*cola)->sig);
+}
+
+void imprimirInt(const void* dato) {
+    printf("%d\n", *(int*)dato);
+}
+
+

@@ -13,7 +13,7 @@ int main() {
     }
 
     printf("Cola ahora:\n");
-    mostrarCola(cola);
+    mapCola(&cola,imprimirInt);
 
     // Desencolar uno por uno
     while (desEncolar(&cola, &extraido, sizeof(int))) {

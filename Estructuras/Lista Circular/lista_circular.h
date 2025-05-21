@@ -17,5 +17,7 @@ int encolar(tCola* cola, void* dato, unsigned tamDato);
 int desEncolar(tCola* cola, void* destino, unsigned cantBytes);
 int verTopeCola(tCola* cola, void* destino, unsigned cantBytes);
 void mostrarCola(const tCola cola);
+void mapCola(const tCola* cola, void (*accion)(const void*));
+void imprimirInt(const void* dato);
 
 #endif // LISTA_CIRCULAR_H_INCLUDED
