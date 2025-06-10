@@ -1,0 +1,55 @@
+int insertarNodo(tLista *lista, void * dato, unsigned tam, tComparar comparar)
+{
+    tNodo *auxSig, *auxAnt, *act,*nue;
+    if(*lista==NULL)
+    {
+        auxAnt=NULL;
+        auxSig=NULL;
+    }
+    else
+    {
+        act=*lista;
+        while(act->sig && comparar(act->dato, dato)<0)
+            act=act->sig;
+
+        while(act->ant && comparar(act->dato, dato)>0)
+            act=act->ant;
+
+        if(comparar(act->dato, dato)==0)
+            return DUPLICADO;//SINO PUEDO PONER ACCION
+
+        else if(comparar(act->dato, dato)<0)
+        {
+            auxAnt=act;
+            auxSig=act->sig;
+        }
+        else
+        {
+            auxAnt=act->ant;
+            auxSig=act;
+        }
+    }
+    nue=(tNodo*)malloc(sizeof(tNodo));
+    if(!nue)
+        return SIN_MEM;
+    nue->dato=malloc(tam);
+    if(!nue->dato)
+    {
+        free(nue);
+        return SIN_MEM;
+    }
+
+    memcpy(nue->dato, dato, tam);
+    nue->tam=tam;
+    nue->sig=auxSig;
+    nue->ant=auxAnt;
+
+    if(auxAnt!=NULL)
+        auxAnt->sig=nue;
+    if(auxSig!=NULL)
+        auxSig->ant=nue;
+
+    *lista=nue;
+
+    return REALIZADO;
+}

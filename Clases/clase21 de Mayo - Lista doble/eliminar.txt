@@ -1,0 +1,30 @@
+int eliminarNodo(tLista *lista, void * dato, unsigned tam, tComparar comparar)
+{
+    tNodo *elim, *auxSig, *auxAnt;
+    elim=*lista;
+    while(elim->sig && comparar(elim->dato,dato)<0)
+        elim=elim->sig;
+    while(elim->ant && comparar(elim->dato,dato)>0)
+        elim=elim->ant;
+
+    if(comparar(elim->dato,dato)!=0)
+        return NO_ENCONTRADO;
+    auxAnt=elim->ant;
+    auxSig=elim->sig;
+
+    if(auxAnt!=NULL)
+        auxAnt->sig=auxSig;
+    if(auxSig!=NULL)
+    {
+        auxSig->ant=auxAnt;
+        *lista=auxAnt;
+    }
+
+
+    free(elim->dato);
+    free(elim);
+
+    return REALIZADO;
+
+
+}

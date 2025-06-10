@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1749044020 source:f:\clase del 4 del 6\arbol\arbol.c
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	"arbol.h"
+
+1749043660 f:\clase del 4 del 6\arbol\arbol.h
+
+1749043774 source:f:\clase del 4 del 6\arbol\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arbol.h"
+

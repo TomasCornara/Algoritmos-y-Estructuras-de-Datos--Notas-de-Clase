@@ -1,0 +1,42 @@
+
+
+int cmpInt(const void* arg1, const void* arg2)
+{
+  return  *(int*)arg1 - *(int*)arg2;
+}
+
+
+
+.h
+typedef tNodo * tLista;
+typedef void(*Accion)(void*, void *);
+typedef int(*Cmp)(const void *, const void *);
+
+
+int insertarListaOrd(tLista *pLista, void *dato, unsigned tamDato,Cmp cmp, Accion accion)
+{
+    int comparo;
+    tNodo * nue;
+
+    while( *pLista && (comparo = cmp((*pLista)->info, dato)) < 0 )
+       pLista = &(*pLista)->sig;
+
+    if(*pLista && comparo==0){
+        accion(NULL,NULL);
+        return DUPLICADO;
+    }
+
+    nue = (tNodo*)malloc(sizeof(tNodo));
+
+    if(!nue || !(nue->info = malloc(tamDato))){
+        free(nue);
+        return SIN_MEM; }
+
+    memcpy(nue->info,dato,tamDato);
+    nue->tamInfo = tamDato;
+
+    nue->sig = *pLista;
+    *pLista = nue;
+
+    return TODO_OK;
+}

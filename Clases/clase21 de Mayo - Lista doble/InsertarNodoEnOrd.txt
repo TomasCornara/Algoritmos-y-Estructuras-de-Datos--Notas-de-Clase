@@ -1,0 +1,65 @@
+int insListaDoble(tLista *pLista , const void * dato,
+                   unsigned tamDato, tCmp cmp, tAccion accion, void * arg)
+{
+    tNodo * act = *pLista,
+          *auxAnt,
+          *auxSig,
+          *nue;
+
+    int comparo;
+
+    if(!act)
+    {
+       auxAnt = NULL;
+       auxSig = NULL;
+    }
+    else
+    {
+      while(act->sig && cmp(act->info,dato)<0)
+        act = act->sig;
+
+      while(act->ant && cmp(act->info,dato)>0)
+        act = act->ant;
+
+      comparo=cmp(act->info,dato);
+
+      if(comparo==0)
+      {
+        *pLista = act;
+        if(!accion)
+            accion(act->info,arg);
+
+        return DUPLICADO;
+      }
+
+      if(comparo<0){
+        auxAnt = act;
+        auxSig = act->sig;  }
+      else{ /// >0
+         auxAnt = act->ant;
+         auxSig = act;      }
+
+    }
+
+    nue = (tNodo*)malloc(sizeof(tNodo));
+
+    if(!nue || !(nue->info = malloc(tamDato))){
+        free(nue);
+        return SIN_MEM;   }
+
+    memcpy(nue->info, dato, tamDato);
+    nue->tamInfo = tamDato;
+
+    nue->sig = auxSig;
+    nue->ant = auxAnt;
+
+    if(auxSig)
+        auxSig->ant = nue;
+
+    if(auxAnt)
+        auxAnt->sig = nue;
+
+  *pLista = nue;
+
+  return TODO_OK;
+}

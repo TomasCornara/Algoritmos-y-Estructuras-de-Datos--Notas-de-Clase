@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1747859890 source:e:\algoritmos clases\clase21del05\lista_doble.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"lista_doble.h"
+
+1747859932 e:\algoritmos clases\clase21del05\lista_doble.h
+
+1747859942 source:e:\algoritmos clases\clase21del05\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista_doble.h"
+
