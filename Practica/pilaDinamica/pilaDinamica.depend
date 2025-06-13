@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1749852130 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\piladinamica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilaDinamica.h"
+
+1749852766 c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\piladinamica\piladinamica.h
+
+1749852908 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\piladinamica\piladinamica.c
+	<string.h>
+	<stdlib.h>
+	"pilaDinamica.h"
+
