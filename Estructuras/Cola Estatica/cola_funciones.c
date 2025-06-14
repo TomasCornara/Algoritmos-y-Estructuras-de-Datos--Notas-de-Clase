@@ -10,8 +10,8 @@ void crearCola(tCola *cola){
 
 void vaciarCola(tCola *cola){
     cola->tam_disp = TAM_COLA;
-    cola->primero = 0;
-    cola->ultimo = 0;
+    cola->primero = 10;
+    cola->ultimo = 10;
 }
 
 int colaVacia(const tCola *cola){
