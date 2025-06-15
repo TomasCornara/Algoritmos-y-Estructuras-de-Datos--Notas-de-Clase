@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1750009464 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\cola dinamcia\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cola_dinamica.h"
+
+1750009514 c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\cola dinamcia\cola_dinamica.h
+
+1750009412 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\cola dinamcia\cola_dinamica.c
+	<string.h>
+	<stdlib.h>
+	"cola_dinamica.h"
+
