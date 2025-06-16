@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1750116511 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\parciales\dados\bache_inicial.c
+	<stdio.h>
+	"emuladorDados.h"
+
+1750116208 c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\parciales\dados\emuladordados.h
+	<time.h>
+
+1750116828 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\parciales\dados\main.c
+	<stdio.h>
+	<stdlib.h>
+	"emuladorDados.h"
+	"bache_incial.h"
+	"lista_circular.h"
+
+1750102862 c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\parciales\dados\bache_incial.h
+
+1750116208 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\parciales\dados\emuladordados.c
+	<stdlib.h>
+	"stdio.h"
+	"emuladorDados.h"
+
+1750116183 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\parciales\dados\lista_circular.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lista_circular.h"
+
+1750116183 c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\parciales\dados\lista_circular.h
+
