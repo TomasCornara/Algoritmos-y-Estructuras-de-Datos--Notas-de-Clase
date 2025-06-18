@@ -1,14 +1,6 @@
 # depslib dependency file v1.0
-1748999625 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\lista doble\lista.c
+1750254722 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\parciales\lista doble\main.c
+	<stdio.h>
+	<stdlib.h>
 	<string.h>
-	<stdio.h>
-	<stdlib.h>
-	"lista.h"
-
-1748999633 c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\lista doble\lista.h
-
-1748999625 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\lista doble\main.c
-	<stdio.h>
-	<stdlib.h>
-	"lista.h"
 
