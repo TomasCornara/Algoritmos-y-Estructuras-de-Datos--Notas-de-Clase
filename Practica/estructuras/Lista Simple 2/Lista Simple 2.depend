@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1750734959 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\parciales\lista simple 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

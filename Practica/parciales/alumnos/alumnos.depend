@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1750815476 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\parciales\alumnos\alumno.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"alumno.h"
+
+1750815565 c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\parciales\alumnos\alumno.h
+
+1750815535 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\parciales\alumnos\bacheprueba.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"alumno.h"
+
+1750815544 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\parciales\alumnos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"alumno.h"
+
