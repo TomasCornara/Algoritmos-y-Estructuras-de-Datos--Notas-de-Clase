@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1751214927 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\estructuras\arbol2\arbol.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"arbol.h"
+
+1751214927 c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\estructuras\arbol2\arbol.h
+
+1751214927 source:c:\users\tomas\desktop\algoritmos-y-estructuras-de-datos--notas-de-clase\practica\estructuras\arbol2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arbol.h"
+
