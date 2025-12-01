@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1760219647 source:c:\users\tomas\desktop\practica parcial algoritmos\modelo1\ejercicio2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilaEstatica.h"
+	"parentesis.h"
+
+1760212555 c:\users\tomas\desktop\practica parcial algoritmos\modelo1\ejercicio2\pilaestatica.h
+
+1760219647 c:\users\tomas\desktop\practica parcial algoritmos\modelo1\ejercicio2\parentesis.h
+
+1760219796 source:c:\users\tomas\desktop\practica parcial algoritmos\modelo1\ejercicio2\parantesis.c
+	"parentesis.h"
+
+1760212555 source:c:\users\tomas\desktop\practica parcial algoritmos\modelo1\ejercicio2\pilaestatica.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pilaEstatica.h"
+

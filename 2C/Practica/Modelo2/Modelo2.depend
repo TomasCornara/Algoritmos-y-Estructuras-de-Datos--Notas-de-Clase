@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1760311477 source:c:\users\tomas\desktop\practica parcial algoritmos\modelo2\listadinamica.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"listaDinamica.h"
+
+1760383362 c:\users\tomas\desktop\practica parcial algoritmos\modelo2\listadinamica.h
+
+1760386331 source:c:\users\tomas\desktop\practica parcial algoritmos\modelo2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"listaDinamica.h"
+	"listaVideojuegos.h"
+
+1760386314 source:c:\users\tomas\desktop\practica parcial algoritmos\modelo2\listavideojuegos.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	"listaVideojuegos.h"
+
+1760386345 c:\users\tomas\desktop\practica parcial algoritmos\modelo2\listavideojuegos.h
+	"listaDinamica.h"
+

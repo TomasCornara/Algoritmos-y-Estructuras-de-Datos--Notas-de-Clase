@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1756225967 source:c:\users\tomas\documents\github\ayed2c2025\estructuras\pilaestatica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilaEstatica.h"
+
+1756232460 c:\users\tomas\documents\github\ayed2c2025\estructuras\pilaestatica\pilaestatica.h
+
+1756232460 source:c:\users\tomas\documents\github\ayed2c2025\estructuras\pilaestatica\pilaestatica.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"pilaEstatica.h"
+

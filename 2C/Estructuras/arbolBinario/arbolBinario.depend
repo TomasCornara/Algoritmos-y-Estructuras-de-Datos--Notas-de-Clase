@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1761234882 source:c:\users\tomas\documents\github\ayed2c2025\estructuras\arbolbinario\arbolbinario.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"arbolBinario.h"
+
+1761234881 c:\users\tomas\documents\github\ayed2c2025\estructuras\arbolbinario\arbolbinario.h
+
+1761235086 source:c:\users\tomas\documents\github\ayed2c2025\estructuras\arbolbinario\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arbolBinario.h"
+

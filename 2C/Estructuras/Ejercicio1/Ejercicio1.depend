@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1756408715 source:c:\users\tomas\documents\github\ayed2c2025\estructuras\ejercicio1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

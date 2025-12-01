@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1764556479 source:c:\users\tomas\onedrive\desktop\indice\arbol.c
+	"arbol.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1764556200 c:\users\tomas\onedrive\desktop\indice\arbol.h
+
+1764557218 source:c:\users\tomas\onedrive\desktop\indice\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"indice.h"
+
+1764556491 source:c:\users\tomas\onedrive\desktop\indice\indice.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"indice.h"
+
+1764556137 c:\users\tomas\onedrive\desktop\indice\indice.h
+	"arbol.h"
+

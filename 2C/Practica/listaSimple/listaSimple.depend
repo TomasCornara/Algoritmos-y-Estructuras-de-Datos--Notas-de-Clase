@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1762788393 source:c:\users\tomas\desktop\practica parcial algoritmos\listasimple\lista.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lista.h"
+
+1762786385 c:\users\tomas\desktop\practica parcial algoritmos\listasimple\lista.h
+
+1762788480 source:c:\users\tomas\desktop\practica parcial algoritmos\listasimple\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1757348454 source:c:\users\tomas\documents\github\ayed2c2025\estructuras\cola\cola.c
+	<stdlib.h>
+	<string.h>
+	"cola.h"
+
+1757348247 c:\users\tomas\documents\github\ayed2c2025\estructuras\cola\cola.h
+
+1757348292 source:c:\users\tomas\documents\github\ayed2c2025\estructuras\cola\main.c
+	<stdio.h>
+	<stdlib.h>
+	"cola.h"
+

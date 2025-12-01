@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1756235565 source:c:\users\tomas\documents\github\ayed2c2025\estructuras\piladinamica\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pilaDinamica.h"
+
+1756235304 c:\users\tomas\documents\github\ayed2c2025\estructuras\piladinamica\piladinamica.h
+
+1756236311 source:c:\users\tomas\documents\github\ayed2c2025\estructuras\piladinamica\piladinamica.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pilaDinamica.h"
+

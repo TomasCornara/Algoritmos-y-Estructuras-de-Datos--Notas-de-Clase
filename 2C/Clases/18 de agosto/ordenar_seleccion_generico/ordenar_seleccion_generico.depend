@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1755654212 source:c:\users\tomas\documents\github\ayed2c2025\clases\18 de agosto\ordenar_seleccion_generico\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ordenar_seleccion.h"
+
+1755654206 c:\users\tomas\documents\github\ayed2c2025\clases\18 de agosto\ordenar_seleccion_generico\ordenar_seleccion.h
+
+1755654221 source:c:\users\tomas\documents\github\ayed2c2025\clases\18 de agosto\ordenar_seleccion_generico\ordenar_seleccion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ordenar_seleccion.h"
+
